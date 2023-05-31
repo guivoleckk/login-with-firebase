@@ -41,7 +41,7 @@ export const AuthGoogleProvider = ({ children }) => {
             
             // const email = error.customData.email;
             
-            // const credential = GoogleAuthProvider.credentialFromError(error);
+            // const credentiall = GoogleAuthProvider.credentialFromError(error);
             
           });
       }
