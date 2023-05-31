@@ -1,0 +1,250 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* login style */
+
+@media (max-width: 828px) {
+    /* Estilos para dispositivos móveis */
+    .main-login {      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f2f2;
+        height: 100vh;
+      }
+      
+      .div-get-button {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 600px;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      }
+      
+      .button-login {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 50px;
+        font-weight: bold;
+        padding: 12px 24px;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      
+      .button-login:hover {
+        background-color: #0069d9;
+      }
+    
+  }
+
+/* desktop */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .div-get-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  }
+  
+  .button-login {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button-login:hover {
+    background-color: #0069d9;
+  }
+
+/* parte do home */
+
+
+/* parte todo list do home */
+
+@media (max-width: 828px) {
+  /* Estilos para telas menores que 828px */
+
+
+  .div-home {
+    display: flex;
+  }
+  
+  .text-name-user {
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+  }
+  
+  .button-logout {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    max-height: 70px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 5px;
+  }
+
+
+  .div-father {
+    display: flex;
+    justify-content: center;
+  }
+  
+  body{ 
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    margin-right: 375px ;
+  }
+  
+  .form-class {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-set {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px;
+  }
+  
+.btn {
+  font-size: 35px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+}
+
+.li-list {
+  list-style: none;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.btn {
+  font-size: 35px;
+  display: inline-block;
+}
+}
+
+/* desktop */
+
+
+.div-home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-name-user {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.button-logout {
+  display: flex;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+
+.div-father {
+  display: flex;
+  flex-direction: column;
+}
+
+body{ 
+  background-color: #f2f2f2;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-class {
+  display: flex;
+  justify-content: center;
+}
+
+.input-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.task-list {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 6px;
+}
+
+.li-list {
+  list-style: none;
+  margin: 16px;
+}
